@@ -13,3 +13,7 @@ Accuracy :0,75685
 K-Means Algorithm output-4 Cluster
 
 <img src="http://i.hizliresim.com/VPnBpn.png">
+
+Linear Regression Algorithm output-Predict 3 days
+
+<img src="http://i.hizliresim.com/pX32Ya.png">
