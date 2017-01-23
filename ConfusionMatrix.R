@@ -36,6 +36,15 @@ print(acc)
 
 
 
+set.seed(1)
+tree <- rpart(Survived ~ ., train, method = "class", control = rpart.control(cp=0.00001))
+
+fancyRpartPlot(tree)
+
+pruned<-prune(tree,cp=0.01)
+
+# Aðacý buduyoruz. Çok fazla overfit oldu. Yani bias deðeri büyüyecek
+fancyRpartPlot(pruned)
 
 
 
