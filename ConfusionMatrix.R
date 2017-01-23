@@ -22,3 +22,20 @@ conf
 #   0   1
 #0 150  13
 #1  11  93
+
+##acc=(TP+TN)/(TP+FN+FP+TN)
+##alttakide hesaplýyor accuracy
+acc<-sum(diag(conf))/sum(conf)
+print(acc)
+
+#prec=(TP)/(TP+FP)
+#print(prec)
+
+#rec=TP/(TP+FN)
+#print(rec)
+
+
+
+
+
+
